@@ -290,7 +290,7 @@ public class TrieWrite extends Application {
 			alert.setTitle("About");
 			alert.setHeaderText("TrieWrite");
 			alert.setContentText("Version 1.0 \nRelease 1.0\nCopyLeft Sooner\nDeveloped by a Sooner!");
-			Image image = new Image(this.getClass().getResource("Sooner.jpg").toString());
+			Image image = new Image(this.getClass().getResource("/Sooner.jpg").toString());
 			ImageView imageView = new ImageView();
 			imageView.setImage(image);
 			imageView.setFitWidth(150);
