@@ -2,9 +2,8 @@ module com.example.triewrite {
     requires javafx.graphics;
     requires javafx.controls;
     requires javafx.fxml;
-    requires org.fxmisc.richtext;
     requires org.junit.jupiter.api;
-
+    requires org.fxmisc.richtext;
 
 
     opens com.example.triewrite to javafx.fxml;
